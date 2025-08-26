@@ -7,6 +7,7 @@ function Form(){
     }
     const handleSubmit=(e)=>{
         e.preventDefault();
+        console.log("hi");
         console.log(formData);
     }
     return (
