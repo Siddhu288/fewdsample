@@ -5,6 +5,9 @@ import Weather from './Weather'; // Adjust the path based on your structure
 const HomePage = () => {
   return (
     <div className="p-6">
+      <h1>Welcomt to home page</h1>
+      <h1>sample conflict</h1>
+      <h1>siddhu-------888888</h1>
       <h1 className="text-2xl font-bold mb-4">Welcome to the Home Page</h1>
       <Weather/>
       <h1>Hello man</h1>
