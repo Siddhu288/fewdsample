@@ -19,7 +19,7 @@ function Form(){
             <label >Age:<input type="number" name="age" onChange={handleChange}/> </label>
             <button type="submit">Submit</button>
             <div>{JSON.stringify(formData)}</div>
-
+            {<p>Form submitted successfully!</p>}
         </form>
         </>
     )
